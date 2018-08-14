@@ -58,6 +58,6 @@ ___
 ## Helpful Links
 
 * +=: [w3schools](https://www.w3schools.com/js/js_assignment.asp)
-* . : [MDN] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors#Dot_notation)
+* . : [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors#Dot_notation)
 
 [TOP](#index)
