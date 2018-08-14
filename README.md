@@ -45,7 +45,7 @@ try {
 
 ```
 
-[PyTut](https://goo.gl/icM8MS)
+[PyTut](https://goo.gl/8itcaE)
 
 [TOP](#index)
 
