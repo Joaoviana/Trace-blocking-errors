@@ -13,7 +13,7 @@ ___
 
 Language Features:
 * '+=' assignment operator with objects and properties 
-
+* '.' member access operator (dot notation)
 
 
 [TOP](#index)
@@ -25,6 +25,24 @@ ___
 ```js
 let obj = {a: 0, b: 1, c: 2}, x = "c"; 
 (((obj.a += 2).b += 1)[x] += 0);
+
+//Breakdown
+obj.a += 2;
+//Reached an error
+try {
+  2.b += 1;
+} catch (err) {
+  console.log(err);
+  obj.b += 1;
+};
+//Reached another error
+try {
+  2[x] += 0;
+} catch (err) {
+  console.log(err);
+  obj[x] += 0;
+};
+
 ```
 
 [PyTut](https://goo.gl/icM8MS)
@@ -40,5 +58,6 @@ ___
 ## Helpful Links
 
 * +=: [w3schools](https://www.w3schools.com/js/js_assignment.asp)
+* . : [MDN] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors#Dot_notation)
 
 [TOP](#index)
